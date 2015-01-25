@@ -11,6 +11,7 @@ GMP_INSTALL_STAGING = YES
 GMP_LICENSE = LGPLv3+
 GMP_LICENSE_FILES = COPYING.LESSERv3
 GMP_DEPENDENCIES = host-m4
+GMP_CONF_OPT = --enable-cxx
 
 $(eval $(autotools-package))
 $(eval $(host-autotools-package))
